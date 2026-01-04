@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #edf2f7;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background: white;
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card h3 {
+    color: #3182ce;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card li {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background: #3182ce;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2b6cb0;
+}
+
+/* Highlight Pro Plan */
+.pro {
+    border: 3px solid #3182ce;
+    transform: scale(1.05);
+}
